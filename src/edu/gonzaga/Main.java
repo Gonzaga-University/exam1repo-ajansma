@@ -13,6 +13,10 @@ class Adder {
         return val1 + val2;
     }
 
+    public int multVals(){
+        return val1 * val2;
+    }
+
 
 }
 
@@ -21,6 +25,7 @@ public class Main {
         System.out.println("Starting app");
         Adder adder = new Adder(10, 20);
         int sum = adder.sumVals();
+        int mult = multVals();
         System.out.println("App finished.");
     }
 }
