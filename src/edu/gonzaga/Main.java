@@ -1,5 +1,12 @@
 package edu.gonzaga;
 
+/*
+Ariana Jansma
+Created my own branch, ajansma
+About to merge back to asc/appFeature
+ */
+
+
 class Adder {
     int val1;
     int val2;
