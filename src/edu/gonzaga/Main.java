@@ -9,6 +9,10 @@ class Adder {
         val2 = new_val2;
     }
 
+    public int sumVals(){
+        return val1 + val2;
+    }
+
 
 }
 
@@ -16,7 +20,7 @@ public class Main {
     public static void main(String args[]) {
         System.out.println("Starting app");
         Adder adder = new Adder(10, 20);
-
+        int sum = adder.sumVals();
         System.out.println("App finished.");
     }
 }
